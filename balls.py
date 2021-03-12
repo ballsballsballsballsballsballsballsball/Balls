@@ -1,4 +1,7 @@
 # balls
+import string
 
 while True:
-  print("hieefbwvbjjnvsfjnvsfjnfvsjjnsfvnjvfsnnvfsjnnfjvs jvs BALLS")
+  letters = string.ascii_letters
+  ''.join(random.choice(letters) for i in range(16)) + " bals"
+  
