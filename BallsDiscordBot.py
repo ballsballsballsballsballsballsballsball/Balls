@@ -1,7 +1,7 @@
 import discord as Ballspy
 from Ballspy.ext import commands as BallsCommands
 
-Balls = BallsCommands.bot(command_prefix="sex")
+Balls = BallsCommands.bot(command_prefix="balls")
 
 @Balls.event
 async def on_ready():
