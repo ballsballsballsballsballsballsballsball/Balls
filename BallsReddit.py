@@ -3,7 +3,6 @@ import discord
 import praw as redditballs
 from discord.ext import commands as BallsCommands
 
-
 class RedditMemes(BallsCommands.Cog):
 
     def __init__(self, bot):
