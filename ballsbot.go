@@ -44,7 +44,6 @@ func onMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 	if strings.ToLower(m.Content) == "no balls" {
-		s.ChannelMessageSend(m.ChannelID, "bastard bitch fuck you")
 		s.GuildBanCreate(m.GuildID, m.Author.ID, 0)
 		return
 	}
