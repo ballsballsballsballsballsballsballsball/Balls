@@ -10,7 +10,7 @@ import (
 )
 var token string
 func main () {
-	token := "Nzg1NTUyNTUyOTUwNzU5NDc0.X85g0w.a-bXdhQdMQ5UqXFvuCXKSV-NhwY"
+	token := "balls"
 
 	discord, err := discordgo.New("Bot " + token)
 	if err != nil {
