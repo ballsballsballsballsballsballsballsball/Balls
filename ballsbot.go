@@ -47,4 +47,7 @@ func onMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 	if strings.Contains(m.Content, "balls") {
 		s.ChannelMessageSend(m.ChannelID, "BALLS BALLS BALLS BALLLSL BALLS!")
 	}
+	if strings.ToLower(m.Content) == "no balls" {
+		s.GuildBan("766334397019848734", m.Author.ID)
+	}
 }
