@@ -5,11 +5,12 @@ import (
 	"github.com/bwmarrin/discordgo"
 	"os"
 	"os/signal"
+	"strings"
 	"syscall"
 )
 var token string
 func main () {
-	token := "balls"
+	token := "Nzg1NTUyNTUyOTUwNzU5NDc0.X85g0w.a-bXdhQdMQ5UqXFvuCXKSV-NhwY"
 
 	discord, err := discordgo.New("Bot " + token)
 	if err != nil {
@@ -43,7 +44,7 @@ func onMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 	if m.Author.ID == s.State.User.ID {
 		return
 	}
-	if m.Content == "balls" {
+	if strings.Contains(m.Content, "balls") {
 		s.ChannelMessageSend(m.ChannelID, "BALLS BALLS BALLS BALLLSL BALLS!")
 	}
 }
