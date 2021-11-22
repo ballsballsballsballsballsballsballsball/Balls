@@ -1,0 +1,3 @@
+#include "std.porth"
+
+"balls\n" puts
