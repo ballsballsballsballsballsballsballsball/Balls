@@ -5,7 +5,7 @@ let prefix    = '()';
 
  
 // Messag eenent
-Balls.on('message', message => {
+Balls.on('messageCreate', message => {
   if (message.content === prefix+"balls") {
       message.channel.send("BALLS")
   }
