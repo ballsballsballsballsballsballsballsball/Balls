@@ -1,7 +1,5 @@
 Module Balls
 	Sub Main()
-		While True
-			Console.WriteLine("BALLS")
-		End While
+		Console.WriteLine("BALLS")
 	End Sub
 End Module
