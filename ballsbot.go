@@ -49,5 +49,6 @@ func onMessage(s *discordgo.Session, m *discordgo.MessageCreate) {
 	}
 	if strings.Contains(strings.ToLower(m.Content), "balls") {
 		s.ChannelMessageSend(m.ChannelID, "BALLS BALLS BALLS BALLLSL BALLS!")
+		return
 	}
 }
