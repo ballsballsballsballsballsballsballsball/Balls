@@ -18,7 +18,7 @@ _start:
 
                                 
 
-    mov     ebx,0              
+    xor     ebx, ebx              
     mov     eax,1
     int     0x80                
 
