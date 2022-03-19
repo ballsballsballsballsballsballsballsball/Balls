@@ -1,7 +1,7 @@
 // BALLS
 #include <iostream>
 
-void main(){
-  std::cout << "balls";
+int main() {
+  std::cout << "balls" << std::endl;
   return 0;
 }
