@@ -1,0 +1,5 @@
+import io
+
+int :: main(int argc, string[] argv) {
+    print("Balls")
+}
