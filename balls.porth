@@ -1,3 +1,5 @@
 #include "std.porth"
 
-"balls\n" puts
+proc main in
+    "balls\n" puts
+end
