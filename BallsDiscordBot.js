@@ -1,5 +1,8 @@
 const BallsJS = require('discord.js');
-const Balls   = new BallsJS.Client();
+const Balls   = new BallsJS.Client({ 
+  intents: ["GUILDS", "GUILD_MESSAGES", "DIRECT_MESSAGES"],
+  partials: ["CHANNELS"],
+});
 let token     = 'balls';
 let prefix    = '()';
 
