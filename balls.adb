@@ -1,6 +1,6 @@
    with Ada.Text_IO;
 
-   procedure sayBalls is
+   procedure SayBalls is
    begin
       Ada.Text_IO.put("BALLS");
-   end sayBalls;
+   end SayBalls;
