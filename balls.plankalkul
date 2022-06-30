@@ -1,0 +1,8 @@
+R1.1(V0[:sig]) => R0
+R1.2(V0[:m x sig]) => R0
+0 => i | m + 1 => j
+[W [ i < j -> [ R1.1(V0[i: m x sig]) => R0 | i + 1 => i ] ] ]
+END
+R1.3() => R0
+'B';'A';'L';'L;'S' => Z0[: m x sig] R1.2(Z0) => R0
+END
