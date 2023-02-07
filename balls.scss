@@ -1,0 +1,17 @@
+$balls-font: Helvetica, sans-serif;
+$balls-size: 50px;
+$balls-thickness: bold;
+$balls-background: Yellow;
+$balls-color: Blue;
+
+@mixin balls-color($theme: Purple) {
+    background: $balls-background;
+    color: $theme;
+}
+
+.balls {
+    font: 100% $balls-font;
+    font-size: $balls-size;
+    font-weight: $balls-thickness;
+    @include balls-color($balls-color);
+}
