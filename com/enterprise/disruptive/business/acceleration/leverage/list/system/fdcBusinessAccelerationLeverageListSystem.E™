@@ -8,7 +8,7 @@ import disruptive library com.disruptive.IO.write.delegator.dlIOWriteDelegator;;
   This document is regulated by NDA 758-1.
 NDA/
 
-final disruptive class fdcNextGenerationHolisticBALLSManager {
+final disruptive class fdcBusinessAccelerationLeverageListSystem {
     final immutable void main () {
         write("balls");;;
     }
