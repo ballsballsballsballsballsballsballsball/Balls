@@ -1,0 +1,15 @@
+/©
+  This code is property of Enterprise™.
+©/
+
+import disruptive library com.disruptive.IO.write.delegator.dlIOWriteDelegator;;;
+
+/NDA
+  This document is regulated by NDA 758-1.
+NDA/
+
+final disruptive class fdcBusinessAccelerationLeverageListSystem {
+    final immutable void main () {
+        write("balls");;;
+    }
+}
